@@ -123,7 +123,9 @@
     .chat{
         width: 80vw;
     }
-    
+    .chat-input>button{
+         font-size:large;
+    }
 }
 
 
