@@ -1,7 +1,5 @@
 .chat{
-    /* overflow: scroll; */
     top: 0;
-    /* z-index: 50; */
     margin-right: 20px;
     background-color: #f8f5e9;
     width: 30vw;
@@ -13,10 +11,8 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     z-index: 90;
     border-radius: 10px;
-    /* display: none; */
     opacity:0;
     transition:opacity 0.5s ease-in-out;
-    /* border: 2px solid black; */
     right: 0;
     background-image: linear-gradient(to bottom,rgb(150, 150, 244),pink);
 }
@@ -25,7 +21,6 @@
     color: black;
 }
 .chat>.chat-head{
-    /* display: block; */
     
     font-size: x-large;
     color: rgb(50, 2, 43);
@@ -37,10 +32,7 @@
 }
 .chat-input{
     display: flex;
-    
     flex: 0.1;
-    /* border: 1px solid black; */
-    
 }
 .chat-input>input{
     border: none;
@@ -75,15 +67,13 @@
     scrollbar-width: none;  
 }
 .chat-btn{
-    /* z-index: 9; */
     width: 60px;
     padding: 10px;
     position:fixed;
     right: 0px;
     bottom: 0px;
     cursor: pointer;
-    /* z-index: 10; */
-    
+
 }
 .close{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -134,4 +124,24 @@
         width: 80vw;
     }
     
+}
+
+
+
+
+/* test class functionality(instruction) don't copy this css code*/
+.test{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #21082f;
+}
+.test>ul>label{
+    font-size: x-large;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    
+}
+.test>ul>li{
+    font-size: 20px;
 }
