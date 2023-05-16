@@ -13,6 +13,12 @@ chatbtn.addEventListener('click',()=>{
 })
 document.querySelector(".close").addEventListener("click",()=>{
     document.querySelector('.chat').style.opacity="0"
+    const elements = document.querySelectorAll('.msg-output');
+    const ele = document.querySelectorAll('.msg-input');
+    for (let i = 3; i < elements.length; i++) {
+    elements[i].remove();
+    }
+    ele.forEach(element => element.remove());
 })
 btn.addEventListener('click',()=>{
     
