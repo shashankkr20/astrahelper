@@ -10,4 +10,6 @@ Anyone can easily integrate this chatbot by copying 'chat' and 'chatbtn' class a
 4.That's it integrate it and ask your problem to astra helper chatbot<br />
 # live site link
 https://pandiji.github.io/astrahelper/
+# Project github link
+https://github.com/pandiji/astrahelper
 
