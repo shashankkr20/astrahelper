@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 *{
     -webkit-tap-highlight-color: transparent;
 }
 
 /* chat class */
 
+=======
+
+
+* {
+    -webkit-tap-highlight-color: transparent;
+   }
+>>>>>>> f5425f3df4fbf68d19948e645e00b4f44bd422ea
 .chat{
     top: 0;
     margin-right: 20px;
@@ -148,7 +156,11 @@
         width: 80vw;
     }
     .chat-input>button{
+<<<<<<< HEAD
         font-size: 3vw;
+=======
+         font-size:large;
+>>>>>>> f5425f3df4fbf68d19948e645e00b4f44bd422ea
     }
 }
 
